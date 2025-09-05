@@ -14,7 +14,7 @@ public class InfinityAndNaNChechExample {
 		// 잘못된 코드
 		System.out.println(z + 2);
 
-		// 알맞은 코드
+		// 알맞은 코드..........예외처리(중요...이런경우에 대비해라)
 		if (Double.isInfinite(z) || Double.isNaN(z)) {
 			System.out.println("값 산출 불가");
 		} else {

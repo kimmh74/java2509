@@ -16,28 +16,31 @@ public class CompareOperatorExample {
 
 		char char1 = 'A';
 		char char2 = 'B';
-		boolean result4 = (char1 < char2); //65<66
-       System.out.println("result4: "+ result4 );
-       
-       int num3 = 1;
-       double num4 = 1.0;
-       boolean result5 = (num3 ==num4);
-       System.out.println("result5: "+ result5);
-       
-       float num5 = 0.1f;
-       double num6 = 0.1;
-       boolean result6 = (num5 ==num6);
-       boolean result7 = (num5 ==(float)num6);
-       System.out.println("result6: "+ result6);;
-       System.out.println("result7: "+ result7);
-       
-       String str1 = "자바";
-       String str2 = "JAVA";
-       boolean result8 = (str1.equals(str2));
-       boolean result9 = (!str1.equals(str2));
-       System.out.println("result8: "+ result8);
-       System.out.println("result9: "+ result9);
-       
+		boolean result4 = (char1 < char2); // 65<66
+		System.out.println("result4: " + result4);
+
+		int num3 = 1;
+		double num4 = 1.0;
+		boolean result5 = (num3 == num4);
+//       boolean result5_2 = (num3 === num4);
+		System.out.println("result5: " + result5);
+//       System.out.println("result5_2: "+ result5_2);
+
+		float num5 = 0.1f;
+		double num6 = 0.1;
+		boolean result6 = (num5 == num6);
+		// ******타입을 맞춰서 비교해라************** 중요함 타입퀘스트를 맞춤(자바는 값보다 타입을 중요시함)...(float를 넣고)
+		boolean result7 = (num5 == (float) num6);
+		System.out.println("result6: " + result6);
+		System.out.println("result7: " + result7);
+
+		String str1 = "자바";
+		String str2 = "JAVA";
+		boolean result8 = (str1.equals(str2));
+		boolean result9 = (!str1.equals(str2));
+		System.out.println("result8: " + result8);
+		System.out.println("result9: " + result9);
+
 	}
 
 }
