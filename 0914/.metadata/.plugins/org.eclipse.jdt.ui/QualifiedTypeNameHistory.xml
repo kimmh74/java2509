@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="pack1.A"/>
+    <fullyQualifiedTypeName name="pack2.B"/>
+    <fullyQualifiedTypeName name="pack3.C"/>
+    <fullyQualifiedTypeName name="ch11.sec04.MyResource"/>
+    <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
+    <fullyQualifiedTypeName name="ch11.sec06.AccountExample"/>
+</qualifiedTypeNameHistroy>

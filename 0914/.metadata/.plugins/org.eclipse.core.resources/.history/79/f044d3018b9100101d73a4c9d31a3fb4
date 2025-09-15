@@ -1,0 +1,10 @@
+package ch11.sec06;
+
+public class Account {
+
+	public void deposit(int money) {
+	balance += money;
+		
+	}
+
+}
