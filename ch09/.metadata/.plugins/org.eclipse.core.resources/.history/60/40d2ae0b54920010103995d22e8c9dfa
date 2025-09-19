@@ -1,0 +1,11 @@
+package ch09.sec05exam01;
+
+public class A {
+	//A의 인스턴스 필드와 메소드
+	int field1;
+	void method1() {}
+	
+	//A의 정적 필드와 메소드
+	static int 
+
+}

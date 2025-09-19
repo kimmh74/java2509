@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="OkListener"/>
+    <fullyQualifiedTypeName name="ch09.sec06.exam03.Button.ClickListener"/>
+    <fullyQualifiedTypeName name="CancelListener"/>
+    <fullyQualifiedTypeName name="ch09.sec07.exam02.Home"/>
+    <fullyQualifiedTypeName name="ch09.sec07.exam02.RemoteControl"/>
+    <fullyQualifiedTypeName name="ch09.sec06.exam02.Button"/>
+    <fullyQualifiedTypeName name="ch09.sec06.exam02.Button.ClickListener"/>
+    <fullyQualifiedTypeName name="ch09.sec06.exam01.Button"/>
+    <fullyQualifiedTypeName name="java.awt.Button"/>
+    <fullyQualifiedTypeName name="ch09.sec06.exam03.Button"/>
+</qualifiedTypeNameHistroy>
