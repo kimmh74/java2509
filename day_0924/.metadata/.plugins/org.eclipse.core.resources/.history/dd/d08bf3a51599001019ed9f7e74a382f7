@@ -1,0 +1,11 @@
+
+show tables;
+
+select now();
+
+drop table users;
+
+create table users(
+id varchar(50),
+name varchar(100),
+);

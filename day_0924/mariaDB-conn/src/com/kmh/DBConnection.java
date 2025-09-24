@@ -1,0 +1,70 @@
+package com.kmh;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class DBConnection {
+
+	// DB 접속정보_기본
+
+	static String url = "jdbc:mariadb://localhost:3306/employees";
+	static String user = "root";
+	static String password = "1234";
+//	static String password = "AAAA"; 연결실패
+
+	public static Connection getConnection() {
+		Connection conn = null;
+		try {
+			conn = DriverManager.getConnection(url, user, password);
+			System.out.println("==========DB 연결 성공 ==========");
+		} catch (SQLException e) {
+			e.printStackTrace();
+			System.out.println("==============DB 연결 실패 ==========");
+		}
+		return conn;
+	}
+	
+// 이곳에서 다 관리하겠다.... DBConnetion에서 관리하기 위해서..
+	public static void close(Statement stmt, Connection conn) {
+	try {
+		if(stmt !=null)
+			stmt.close();		
+	} catch (SQLException e) {
+		e.printStackTrace();
+	}try {
+		if(conn !=null)
+			conn.close();
+	} catch (SQLException e) {
+		e.printStackTrace();
+	}
+		
+	}
+	public static void close(ResultSet rs,PreparedStatement pstmt, Connection conn) {
+	try {
+		if(rs!=null)
+			rs.close();		
+	} catch (SQLException e) {
+		e.printStackTrace();
+	}try {
+		if(pstmt !=null)
+			pstmt.close();
+	} catch (SQLException e) {
+		e.printStackTrace();
+	}
+	try {
+		if(conn !=null)
+			conn.close();
+		
+	} catch (SQLException e) {
+		e.printStackTrace();
+	}
+		
+	}
+
+
+
+}

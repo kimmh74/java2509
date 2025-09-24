@@ -1,0 +1,51 @@
+package com.kmh;
+
+public class CRUDClass {
+
+	public CRUDClass() {
+		
+		//Create테이블 - create table
+//		createTable();
+		
+		//Read테이블 - select table
+		selectTable();
+		
+		//Update테이블 - update table
+		updateTable();
+		
+		
+		//Delete테이블안의 row삭제 - delete table
+		deleteUser();
+		
+//     insert
+		insertUser();
+		
+		
+	}
+
+	private void insertUser() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void deleteUser() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void updateTable() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void selectTable() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void createTable() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
